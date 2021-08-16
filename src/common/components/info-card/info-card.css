@@ -1,0 +1,36 @@
+
+.main-container {
+    max-width:600px;
+    margin-top:215px;
+}
+.main-header{
+    font-family: "Muli ExtraBold", sans-serif;
+    font-size: 40px;
+    color: #010A60;
+    max-width:600px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+  
+  }
+.secondary-header{
+    font-family: "Muli ExtraBold", sans-serif;
+    font-size: 24px;
+    color: #010A60;
+    max-width:600px;
+    margin-left: 10px;
+    padding-bottom: 20px; 
+  }
+  .informatic-paragraph{
+    color: #010A60;
+    font-size:18px;
+    margin-bottom: 20px;
+  }
+  @media only screen and (max-width: 400px) {
+    .main-container  {
+      display:grid;
+      margin:32px;
+    }
+    .main-header{
+        font-size:28px;
+    }
+     }
